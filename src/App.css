@@ -16,8 +16,8 @@ html {
 }
 
 body {
-  background-color: #ffffff;
   font-family: 'Poppins', sans-serif;
+  background-color: rgba(0, 155, 244, 0.1) !important;
 }
 
 main {
@@ -26,16 +26,7 @@ main {
 
 #about {
   display: block;
-  background-color: rgba(104, 190, 240, 0.1);
   padding: 10px 25px;
-}
-
-#about:hover {
-  background-color: rgba(104, 190, 240, 0.3);
-  z-index: 2;
-  transform: scale(1.01);
-  transition: all 0.9s ease;
-  box-shadow: 2px 2px 2px #000;
 }
 
 section .reg {
@@ -104,20 +95,6 @@ section {
   /* align-items: center; */
 }
 
-/* section .reg{
-    background-color: #87bde6;
-    color: #fff;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    margin: 0 16px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
 :root {
   --accent-color: #0082e6;
 }
@@ -128,16 +105,8 @@ body {
   color: #444;
 }
 
-h1 {
-  margin: 50px 0 30px;
-  text-align: center;
-  color: var(--accent-color);
-  top: 80px;
-}
-
 .faq-container {
   top: 80px;
-  max-width: 1200px;
   margin: auto;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -243,7 +212,6 @@ h1 {
 
   a:hover,
   a.active {
-    background-color: none;
     color: #0082e6;
   }
 }

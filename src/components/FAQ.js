@@ -1,75 +1,46 @@
-import React from "react";
-import '../App.css'
+import * as React from 'react';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-const FAQ = () => {
+export default function SimpleAccordion() {
   return (
     <section>
       <div id="faq">
-        <h1>Frequently Asked Questions</h1>
-        <div classes="faq-container">
-          <div classes="faq">
-            <h3 classes="faq-title">Lorem ipsum dolor sit amet.</h3>
-            <p classes="faq-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-              nobis, repellat neque non dicta fugiat veritatis sit delectus
-              perspiciatis quis?
-            </p>
-            <button classes="faq-toggle">
-              <i classes="fas fa-angle-down"></i>
-            </button>
-          </div>
-
-          <div classes="faq active">
-            <h3 classes="faq-title">Lorem ipsum dolor sit amet.</h3>
-            <p classes="faq-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-              nobis, repellat neque non dicta fugiat veritatis sit delectus
-              perspiciatis quis?
-            </p>
-            <button classes="faq-toggle">
-              <i classes="fas fa-angle-down"></i>
-            </button>
-          </div>
-
-          <div classes="faq">
-            <h3 classes="faq-title">Lorem ipsum dolor sit amet.</h3>
-            <p classes="faq-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-              nobis, repellat neque non dicta fugiat veritatis sit delectus
-              perspiciatis quis?
-            </p>
-            <button classes="faq-toggle">
-              <i classes="fas fa-angle-down"></i>
-            </button>
-          </div>
-
-          <div classes="faq">
-            <h3 classes="faq-title">Lorem ipsum dolor sit amet.</h3>
-            <p classes="faq-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-              nobis, repellat neque non dicta fugiat veritatis sit delectus
-              perspiciatis quis?
-            </p>
-            <button classes="faq-toggle">
-              <i classes="fas fa-angle-down"></i>
-            </button>
-          </div>
-
-          <div classes="faq">
-            <h3 classes="faq-title">Lorem ipsum dolor sit amet.</h3>
-            <p classes="faq-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-              nobis, repellat neque non dicta fugiat veritatis sit delectus
-              perspiciatis quis?
-            </p>
-            <button classes="faq-toggle">
-              <i classes="fas fa-angle-down"></i>
-            </button>
-          </div>
-        </div>
-      </div>
+        <h2 className="m-6 text-5xl ">Code of Conduct</h2>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem', padding: '.8rem'}}>What is it?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem', padding: '.8rem'}}>What is it?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    </div>
     </section>
   );
-};
-
-export default FAQ;
+}

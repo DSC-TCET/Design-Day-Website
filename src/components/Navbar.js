@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className='fixed top-0 text-gray-600 left-0 w-full bg-transparent backdrop-blur-sm'
+      className='fixed top-0 text-gray-600 left-0 w-full backdrop-blur'
       style={{ zIndex: "999" }}
     >
       <Container className='p-4 flex justify-between items-center'>

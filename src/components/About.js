@@ -4,8 +4,8 @@ const About = () => {
   return (
     <section>
       <div className="mt-20" id="about">
-        <h2>About</h2>
-        <article>
+        <h2 className="m-6 text-5xl text-center">About</h2>
+        <div className="mx-16 mb-10 text-xl tracking-wider">
           Design Day is a program organized by Google as part of its Solution
           Challenge initiative. The Solution Challenge is an annual competition
           that encourages students and young professionals to use technology to
@@ -30,7 +30,7 @@ const About = () => {
           Design Day is a valuable opportunity for young professionals to gain
           experience in design thinking and problem-solving, collaborate with
           others, and work on solutions to real-world problems.
-        </article>
+        </div>
       </div>
     </section>
   );

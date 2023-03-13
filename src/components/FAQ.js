@@ -16,12 +16,11 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>What is it?</Typography>
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>What is Design Day?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Design Day is an event where participants of Google Solution Challenge present their prototypes they have developed.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -31,15 +30,90 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>What is it?</Typography>
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>Do we need to submit our project in advance?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Yes, teams are required to submit their projects at least 24 hours before the event.
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion className='m-10'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>How do I register my team for Design Day?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Register your team on the above register button on this website.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion className='m-10'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>Do we need to submit our project in advance?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Yes, teams are required to submit their projects at least 24 hours before the event.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion className='m-10'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>What should we bring to the event?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          Teams must bring their own equipment, including laptops, chargers, and any other necessary tools.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion className='m-10'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>Will there be judges?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          No, mentors will be present instead of judges.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion className='m-10'>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>Can we exceed our presentation time?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          No, any team that exceeds the allotted time will be asked to conclude their presentation.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
     </div>
     </section>
   );

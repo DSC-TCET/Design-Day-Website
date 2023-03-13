@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className='fixed top-0 text-gray-600 left-0 w-full backdrop-blur'
+      className='fixed top-0 text-[rgba(252, 244, 244, 0.768)] left-0 w-full backdrop-blur'
       style={{ zIndex: "999" }}
     >
       <Container className='p-4 flex justify-between items-center'>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 to={item.to}
                 smooth={true}
                 duration={300}
-                className='cursor-pointer hover:text-black transition '
+                className='cursor-pointer hover:text-white transition '
               >
                 {item.name}
               </Link>

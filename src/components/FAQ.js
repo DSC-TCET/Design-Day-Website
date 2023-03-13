@@ -9,14 +9,14 @@ export default function SimpleAccordion() {
   return (
     <section>
       <div id="faq">
-        <h2 className="m-6 text-5xl ">Code of Conduct</h2>
-      <Accordion>
+        <h2 className="m-6 text-5xl ">FAQ</h2>
+      <Accordion className='m-10'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{fontSize: '2rem' , margin: '.5rem', padding: '.8rem'}}>What is it?</Typography>
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>What is it?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -25,13 +25,13 @@ export default function SimpleAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='m-10'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography sx={{fontSize: '2rem' , margin: '.5rem', padding: '.8rem'}}>What is it?</Typography>
+          <Typography sx={{fontSize: '2rem' , margin: '.5rem'}}>What is it?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

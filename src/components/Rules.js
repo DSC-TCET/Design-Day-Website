@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rules = () => {
   return (
-      <section>
+      <section className="my-20">
       <div id="rules">
         <h2 className="m-6 text-5xl">Rules</h2>
         <div className="mx-16 mb-10 text-xl tracking-wider">Each team will be given a designated time to present their prototype to their assigned mentor. Any team that exceeds the allotted time will be asked to conclude their presentation.<br></br><br></br>

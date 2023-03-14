@@ -6,20 +6,22 @@ const Venue = () => {
 
   return (
     <div>
-      <section className="my-20">
-        <div id="venue">
-          <h2 className="m-6" style={{ fontSize: isMobile ? "2rem" : "4rem" }}>
-            Venue
-          </h2>
+      <section className='my-20'>
+        <div id='venue' className='pt-5'>
           <div
-            className="m-10 text-xl tracking-wider"
-            style={{
-              marginLeft: isMobile ? "2rem" : "4rem",
-            }}
+            style={{ backgroundColor: "rgba(177, 205, 236, 0.1)" }}
+            className='p-9 rounded-xl'
           >
-            Thakur College of Engineering and Technology.{" "}
+            <h2
+              className='text-6xl mb-6 font-semibold'
+              style={{ color: "rgba(255,255,255,0.85)" }}
+            >
+              Venue
+            </h2>
+            <div className='text-xl tracking-wider'>
+              Thakur College of Engineering and Technology.{" "}
+            </div>
           </div>
-          <p></p>
         </div>
       </section>
     </div>

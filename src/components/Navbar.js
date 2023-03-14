@@ -183,7 +183,8 @@ const Navbar = function DrawerAppBar(props) {
                     smooth
                     key={item.to}
                     duration={300}
-                    className="cursor-pointer text-black transition"
+                    className="cursor-pointer transition"
+                    style={{color : 'rgba(252, 244, 244, 0.768)'}}
                   >
                     <button
                       key={item.name}

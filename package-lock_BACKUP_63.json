@@ -15,12 +15,14 @@
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
-        "ipaddr.js": "^2.0.1",
         "react": "^18.2.0",
         "react-countdown": "^2.3.5",
         "react-dom": "^18.2.0",
+<<<<<<< HEAD
         "react-responsive": "^9.0.2",
         "react-responsiveness": "^0.1.2",
+=======
+>>>>>>> sanskar
         "react-scripts": "5.0.1",
         "react-scroll": "^1.8.9",
         "web-vitals": "^2.1.4"
@@ -6325,11 +6327,14 @@
         "webpack": "^5.0.0"
       }
     },
+<<<<<<< HEAD
     "node_modules/css-mediaquery": {
       "version": "0.1.2",
       "resolved": "https://registry.npmjs.org/css-mediaquery/-/css-mediaquery-0.1.2.tgz",
       "integrity": "sha512-COtn4EROW5dBGlE/4PiKnh6rZpAPxDeFLaEEwt4i10jpDMFt2EhQGS79QmmrO+iKCHv0PU/HrOWEhijFd1x99Q=="
     },
+=======
+>>>>>>> sanskar
     "node_modules/css-minimizer-webpack-plugin": {
       "version": "3.4.1",
       "resolved": "https://registry.npmjs.org/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-3.4.1.tgz",
@@ -9064,11 +9069,14 @@
         "node": ">=10.17.0"
       }
     },
+<<<<<<< HEAD
     "node_modules/hyphenate-style-name": {
       "version": "1.0.4",
       "resolved": "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz",
       "integrity": "sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ=="
     },
+=======
+>>>>>>> sanskar
     "node_modules/iconv-lite": {
       "version": "0.6.3",
       "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz",
@@ -11881,6 +11889,7 @@
         "tmpl": "1.0.5"
       }
     },
+<<<<<<< HEAD
     "node_modules/matchmediaquery": {
       "version": "0.3.1",
       "resolved": "https://registry.npmjs.org/matchmediaquery/-/matchmediaquery-0.3.1.tgz",
@@ -11889,6 +11898,8 @@
         "css-mediaquery": "^0.1.2"
       }
     },
+=======
+>>>>>>> sanskar
     "node_modules/mdn-data": {
       "version": "2.0.4",
       "resolved": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.4.tgz",
@@ -14282,6 +14293,7 @@
         "node": ">=0.10.0"
       }
     },
+<<<<<<< HEAD
     "node_modules/react-responsive": {
       "version": "9.0.2",
       "resolved": "https://registry.npmjs.org/react-responsive/-/react-responsive-9.0.2.tgz",
@@ -14308,6 +14320,8 @@
         "react-dom": ">= 16.x"
       }
     },
+=======
+>>>>>>> sanskar
     "node_modules/react-scripts": {
       "version": "5.0.1",
       "resolved": "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz",
@@ -15114,11 +15128,14 @@
       "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
       "integrity": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw=="
     },
+<<<<<<< HEAD
     "node_modules/shallow-equal": {
       "version": "1.2.1",
       "resolved": "https://registry.npmjs.org/shallow-equal/-/shallow-equal-1.2.1.tgz",
       "integrity": "sha512-S4vJDjHHMBaiZuT9NPb616CSmLf618jawtv3sufLl6ivK8WocjAo58cXwbRV1cgqxH0Qbv+iUt6m05eqEa2IRA=="
     },
+=======
+>>>>>>> sanskar
     "node_modules/shebang-command": {
       "version": "2.0.0",
       "resolved": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz",
@@ -21713,11 +21730,14 @@
         "semver": "^7.3.8"
       }
     },
+<<<<<<< HEAD
     "css-mediaquery": {
       "version": "0.1.2",
       "resolved": "https://registry.npmjs.org/css-mediaquery/-/css-mediaquery-0.1.2.tgz",
       "integrity": "sha512-COtn4EROW5dBGlE/4PiKnh6rZpAPxDeFLaEEwt4i10jpDMFt2EhQGS79QmmrO+iKCHv0PU/HrOWEhijFd1x99Q=="
     },
+=======
+>>>>>>> sanskar
     "css-minimizer-webpack-plugin": {
       "version": "3.4.1",
       "resolved": "https://registry.npmjs.org/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-3.4.1.tgz",
@@ -23723,11 +23743,14 @@
       "resolved": "https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz",
       "integrity": "sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw=="
     },
+<<<<<<< HEAD
     "hyphenate-style-name": {
       "version": "1.0.4",
       "resolved": "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz",
       "integrity": "sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ=="
     },
+=======
+>>>>>>> sanskar
     "iconv-lite": {
       "version": "0.6.3",
       "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz",
@@ -25901,6 +25924,7 @@
         "tmpl": "1.0.5"
       }
     },
+<<<<<<< HEAD
     "matchmediaquery": {
       "version": "0.3.1",
       "resolved": "https://registry.npmjs.org/matchmediaquery/-/matchmediaquery-0.3.1.tgz",
@@ -25909,6 +25933,8 @@
         "css-mediaquery": "^0.1.2"
       }
     },
+=======
+>>>>>>> sanskar
     "mdn-data": {
       "version": "2.0.4",
       "resolved": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.4.tgz",
@@ -27450,6 +27476,7 @@
       "resolved": "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz",
       "integrity": "sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A=="
     },
+<<<<<<< HEAD
     "react-responsive": {
       "version": "9.0.2",
       "resolved": "https://registry.npmjs.org/react-responsive/-/react-responsive-9.0.2.tgz",
@@ -27467,6 +27494,8 @@
       "integrity": "sha512-BTdREbLLldkbfObLGtp17ttKkgX/cT3Oz3yJdPr2RJf64vM8ltmy1XFz0QTuaTuic4Xw+LLsrYO/kXrNkdnyYA==",
       "requires": {}
     },
+=======
+>>>>>>> sanskar
     "react-scripts": {
       "version": "5.0.1",
       "resolved": "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz",
@@ -28051,11 +28080,14 @@
       "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
       "integrity": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw=="
     },
+<<<<<<< HEAD
     "shallow-equal": {
       "version": "1.2.1",
       "resolved": "https://registry.npmjs.org/shallow-equal/-/shallow-equal-1.2.1.tgz",
       "integrity": "sha512-S4vJDjHHMBaiZuT9NPb616CSmLf618jawtv3sufLl6ivK8WocjAo58cXwbRV1cgqxH0Qbv+iUt6m05eqEa2IRA=="
     },
+=======
+>>>>>>> sanskar
     "shebang-command": {
       "version": "2.0.0",
       "resolved": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz",

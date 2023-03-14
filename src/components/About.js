@@ -11,9 +11,9 @@ const About = () => {
         <div
           className="mb-10 tracking-wider"
           style={{
-            marginLeft: isMobile ? "1rem" : "4rem",
-            marginRight: isMobile ? "1rem" : "4rem",
-            fontSize: isMobile ? ".75rem" : "1.25rem",
+            marginLeft: isMobile ? "2rem" : "4rem",
+            marginRight: isMobile ? "2rem" : "4rem",
+            fontSize: isMobile ? ".90rem" : "1.25rem",
           }}
         >
           Design Day is a program organized by Google as part of its Solution

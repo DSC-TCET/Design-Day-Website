@@ -41,9 +41,7 @@ export default function SimpleAccordion() {
             }}
           >
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Design Day is an event where participants of Google Solution Challenge present their prototypes they have developed.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -54,7 +52,7 @@ export default function SimpleAccordion() {
           }}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+            expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2a-content"
             id="panel2a-header"
             sx={{
@@ -62,24 +60,114 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
-              What is it?
-            </Typography>
+            <Typography sx={{ fontSize: '2rem', margin: '.5rem' }}>Do we need to submit our project in advance?</Typography>
           </AccordionSummary>
-          <AccordionDetails
+          <AccordionDetails>
+            <Typography>
+              Yes, teams are required to submit their projects at least 24 hours before the event.
+            </Typography>
+          </AccordionDetails>
+          <AccordionSummary />
+        </Accordion>
+
+        <Accordion className='m-10'>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
             sx={{
               backgroundColor: "#1b1e29",
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
+            <Typography sx={{ fontSize: '2rem', margin: '.5rem' }}>How do I register my team for Design Day?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Register your team on the above register button on this website.
             </Typography>
           </AccordionDetails>
         </Accordion>
+
+        <Accordion className='m-10'>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+            sx={{
+              backgroundColor: "#1b1e29",
+              color: "rgba(252, 244, 244, 0.768)",
+            }}
+          >
+            <Typography sx={{ fontSize: '2rem', margin: '.5rem' }}>Do we need to submit our project in advance?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Yes, teams are required to submit their projects at least 24 hours before the event.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion className='m-10'>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+            sx={{
+              backgroundColor: "#1b1e29",
+              color: "rgba(252, 244, 244, 0.768)",
+            }}
+          >
+            <Typography sx={{ fontSize: '2rem', margin: '.5rem' }}>What should we bring to the event?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Teams must bring their own equipment, including laptops, chargers, and any other necessary tools.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion className='m-10'>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+            sx={{
+              backgroundColor: "#1b1e29",
+              color: "rgba(252, 244, 244, 0.768)",
+            }}
+          >
+            <Typography sx={{ fontSize: '2rem', margin: '.5rem' }}>Will there be judges?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              No, mentors will be present instead of judges.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion className='m-10'>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+            sx={{
+              backgroundColor: "#1b1e29",
+              color: "rgba(252, 244, 244, 0.768)",
+            }}
+          >
+            <Typography sx={{ fontSize: '2rem', margin: '.5rem' }}>Can we exceed our presentation time?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              No, any team that exceeds the allotted time will be asked to conclude their presentation.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
       </div>
-    </section>
+     
+    </section >
+    
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../undraw_experience_design_re_dmqq.svg";
 import { useMediaQuery } from "react-responsive";
+import Timer from "./Timer";
 
 const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
@@ -14,6 +15,8 @@ const Home = () => {
         <div style={{width : isMobile ? '100%' : '50%', margin: isMobile ? '5rem 2rem 0 .5rem' : null}}> 
           <img src={img} alt="img" />
         </div>
+          <div class="sub">
+          <a href="https://google.com"><button class="reg">Register</button><Timer /></a></div>
       </div>
     </section>
   );

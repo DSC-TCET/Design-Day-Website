@@ -26,7 +26,7 @@ function HideOnScroll(props) {
   });
 
   return (
-    <Slide appear={false} direction="down" in={!trigger}>
+    <Slide appear={false} direction='down' in={!trigger}>
       {children}
     </Slide>
   );
@@ -66,7 +66,7 @@ function ScrollTop(props) {
     <Fade in={trigger}>
       <Box
         onClick={handleClick}
-        role="presentation"
+        role='presentation'
         sx={{
           position: "fixed",
           bottom: 20,
@@ -122,7 +122,7 @@ const Navbar = function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h4" sx={{ my: 2 }}>
+      <Typography variant='h4' sx={{ my: 2 }}>
         Design Day
       </Typography>
       <Divider />
@@ -133,12 +133,9 @@ const Navbar = function DrawerAppBar(props) {
             smooth={true}
             duration={300}
             key={item.name}
-            className="cursor-pointer hover:text-gray-700 transition "
+            className='cursor-pointer hover:text-gray-700 transition '
           >
-            <button
-              key={item.name}
-              className="p-2 block"
-            >
+            <button key={item.name} className='p-2 block'>
               <span>{item.name}</span>
             </button>
           </Link>
@@ -155,7 +152,8 @@ const Navbar = function DrawerAppBar(props) {
         <CssBaseline />
         <HideOnScroll {...props}>
           <AppBar
-            component="nav"
+            component='nav'
+            className='bg-glass'
             sx={{
               background: "transparent",
               boxShadow: "none",
@@ -164,15 +162,15 @@ const Navbar = function DrawerAppBar(props) {
           >
             <Toolbar>
               <IconButton
-                aria-label="open drawer"
-                edge="start"
+                aria-label='open drawer'
+                edge='start'
                 onClick={handleDrawerToggle}
                 sx={{ mr: 2, display: { sm: "none", color: "white" } }}
               >
                 <MenuIcon />
               </IconButton>
               <Typography
-                variant="h6"
+                variant='h6'
                 style={{
                   flexGrow: 1,
                   display: { xs: "none", sm: "block" },
@@ -187,17 +185,17 @@ const Navbar = function DrawerAppBar(props) {
                     smooth
                     key={item.to}
                     duration={300}
-                    className="cursor-pointer transition"
+                    className='cursor-pointer transition'
                     style={{ color: "rgba(252, 244, 244, 0.768)" }}
                   >
                     <button
                       key={item.name}
-                      className="px-2"
+                      className='px-2'
                       initial={{ translateX: -50, opacity: 0 }}
                       animate={{ translateX: 0, opacity: 1 }}
                       transition={{ duration: 1 }}
                     >
-                      <span className="navItemsAnimation">{item.name}</span>
+                      <span className='navItemsAnimation'>{item.name}</span>
                     </button>
                   </Link>
                 ))}
@@ -206,11 +204,11 @@ const Navbar = function DrawerAppBar(props) {
           </AppBar>
         </HideOnScroll>
         {/* id to scroll up from button */}
-        <Typography id="back-to-top-anchor" />
-        <Box component="nav">
+        <Typography id='back-to-top-anchor' />
+        <Box component='nav'>
           <Drawer
             container={container}
-            variant="temporary"
+            variant='temporary'
             open={mobileOpen}
             onClose={handleDrawerToggle}
             ModalProps={{
@@ -229,7 +227,7 @@ const Navbar = function DrawerAppBar(props) {
         </Box>
       </Box>
       <ScrollTop {...props}>
-        <Fab size="small" aria-label="scroll back to top">
+        <Fab size='small' aria-label='scroll back to top'>
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>

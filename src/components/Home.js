@@ -8,11 +8,11 @@ const Home = () => {
     <section id="home" className="mt-16">
       <div className="flex">
         <div className="w-[50%]">
-          <div className="text-[6rem] ml-10 flex justify-center items-center h-full capitalize">design day </div>
+          <div className="text-[5rem] ml-10 flex justify-center items-center h-full capitalize">design day </div>
           {/* <div className="flex h-full capitalize"> */}
-          <a href="https://google.com"><button class="reg">Register</button></a>
-
-          <Timer />
+          <div class="sub">
+          <a href="https://google.com"><button class="reg">Register</button><Timer /></a></div>
+          
 
         </div>
         <div className="w-[50%]">

@@ -22,10 +22,10 @@ Participants are required to follow all local and national laws and regulations.
 
 Any violation of the rules or code of conduct may result in disqualification or other consequences, as determined by the event organizers. </div>
 
-
+    
 
       </div>
-    </section>
+      </section>
   );
 };
 

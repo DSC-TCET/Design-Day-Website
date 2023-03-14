@@ -30,7 +30,12 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
+            <Typography
+              sx={{ margin: ".5rem" }}
+              style={{
+                fontSize: isMobile ? "1rem" : "2rem",
+              }}
+            >
               What is it?
             </Typography>
           </AccordionSummary>
@@ -61,7 +66,12 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
+            <Typography
+              sx={{ margin: ".5rem" }}
+              style={{
+                fontSize: isMobile ? "1rem" : "2rem",
+              }}
+            >
               Do we need to submit our project in advance?
             </Typography>
           </AccordionSummary>
@@ -93,7 +103,12 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
+            <Typography
+              sx={{ margin: ".5rem" }}
+              style={{
+                fontSize: isMobile ? "1rem" : "2rem",
+              }}
+            >
               How do I register my team for Design Day?
             </Typography>
           </AccordionSummary>
@@ -124,7 +139,12 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
+            <Typography
+              sx={{ margin: ".5rem" }}
+              style={{
+                fontSize: isMobile ? "1rem" : "2rem",
+              }}
+            >
               Do we need to submit our project in advance?
             </Typography>
           </AccordionSummary>
@@ -156,7 +176,12 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
+            <Typography
+              sx={{ margin: ".5rem" }}
+              style={{
+                fontSize: isMobile ? "1rem" : "2rem",
+              }}
+            >
               What should we bring to the event?
             </Typography>
           </AccordionSummary>
@@ -188,7 +213,12 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
+            <Typography
+              sx={{ margin: ".5rem" }}
+              style={{
+                fontSize: isMobile ? "1rem" : "2rem",
+              }}
+            >
               Will there be judges?
             </Typography>
           </AccordionSummary>
@@ -219,7 +249,12 @@ export default function SimpleAccordion() {
               color: "rgba(252, 244, 244, 0.768)",
             }}
           >
-            <Typography sx={{ fontSize: "2rem", margin: ".5rem" }}>
+            <Typography
+              sx={{ margin: ".5rem" }}
+              style={{
+                fontSize: isMobile ? "1rem" : "2rem",
+              }}
+            >
               Can we exceed our presentation time?
             </Typography>
           </AccordionSummary>

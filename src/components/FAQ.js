@@ -4,13 +4,25 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useMediaQuery } from "react-responsive";
 
 export default function SimpleAccordion() {
+  const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
+
   return (
     <section className="my-20">
       <div id="faq">
-        <h2 className="m-6 text-5xl">FAQ</h2>
-        <Accordion className="m-10 drop-shadow-xl ">
+        <h2
+          className="m-6 text-5xl"
+        >
+          FAQ
+        </h2>
+        <Accordion
+          className="m-10 drop-shadow-xl"
+          style={{
+            margin: isMobile ? "2rem" : null,
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
             aria-controls="panel1a-content"
@@ -37,7 +49,12 @@ export default function SimpleAccordion() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion className="m-10">
+        <Accordion
+          className="m-10"
+          style={{
+            margin: isMobile ? "2rem" : null,
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
             aria-controls="panel2a-content"

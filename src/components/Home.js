@@ -1,14 +1,17 @@
 import React from "react";
 import img from "../undraw_experience_design_re_dmqq.svg";
+import { useMediaQuery } from "react-responsive";
 
 const Home = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
+
   return (
     <section id="home" className="mt-16">
-      <div className="flex">
-        <div className="w-[50%]">
-          <div className="text-[4rem] ml-10 flex justify-center items-center h-full capitalize">design day</div>
+      <div style={{display : isMobile ? 'grid' : 'flex'}}>
+        <div style={{width : isMobile ? '100%' : '50%'}}>
+          <div className="ml-10 flex justify-center items-center h-full capitalize" style={{fontSize : isMobile ? '2rem' : '4rem', marginTop: isMobile ? '2rem' : null}}>design day</div>
         </div>
-        <div className="w-[50%]">
+        <div style={{width : isMobile ? '100%' : '50%', margin: isMobile ? '5rem 2rem 0 .5rem' : null}}> 
           <img src={img} alt="img" />
         </div>
       </div>

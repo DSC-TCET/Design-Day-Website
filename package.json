@@ -13,6 +13,8 @@
     "react": "^18.2.0",
     "react-countdown": "^2.3.5",
     "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.2",
+    "react-responsiveness": "^0.1.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "web-vitals": "^2.1.4"

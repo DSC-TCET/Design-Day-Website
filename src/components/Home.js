@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../undraw_experience_design_re_dmqq.svg";
 import "./Home.css";
+import Timer from "./Timer";
 
 const Home = () => {
   return (
@@ -10,6 +11,9 @@ const Home = () => {
           <div className="text-[6rem] ml-10 flex justify-center items-center h-full capitalize">design day </div>
           {/* <div className="flex h-full capitalize"> */}
           <a href="https://google.com"><button class="reg">Register</button></a>
+
+          <Timer />
+
         </div>
         <div className="w-[50%]">
           <img src={img} alt="img" />

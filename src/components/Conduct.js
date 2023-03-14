@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css'
-import Timer from "./Timer";
+
 
 const Conduct = () => {
   return (
@@ -22,8 +22,7 @@ Participants are required to follow all local and national laws and regulations.
 
 Any violation of the rules or code of conduct may result in disqualification or other consequences, as determined by the event organizers. </div>
 
-        <Timer />
-        <div className="mx-16 m-10 text-xl tracking-wider">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+
 
       </div>
     </section>

@@ -1,5 +1,6 @@
 import React from "react";
 import '../App.css'
+import Timer from "./Timer";
 
 
 const Conduct = () => {
@@ -24,6 +25,8 @@ Any violation of the rules or code of conduct may result in disqualification or 
 
     
 
+        <Timer />
+        <div className="mx-16 m-10 text-xl tracking-wider">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
       </div>
       </section>
   );

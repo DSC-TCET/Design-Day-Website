@@ -9,7 +9,7 @@ const About = () => {
           Design Day is a program organized by Google as part of its Solution
           Challenge initiative. The Solution Challenge is an annual competition
           that encourages students and young professionals to use technology to
-          solve real-world problems. <br></br><br></br>The competition is open to individuals and
+          solve real-world problems. <br></br><br></br>The competition is ogtipen to individuals and
           teams of up to four members, and participants are required to submit a
           solution that addresses one of Google's designated global problems.
           Design Day is a one-day event that takes place as part of the Solution

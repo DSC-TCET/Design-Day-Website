@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function SimpleAccordion() {
   return (
-    <section className="my-20">
+    <section className="my-20" className="my-20">
       <div id="faq">
         <h2 className="m-6 text-5xl ">FAQ</h2>
         <Accordion className='m-10'>
@@ -145,5 +145,8 @@ export default function SimpleAccordion() {
       </div>
      
     </section >
+    
+      </div>
+    </section>
   );
 }

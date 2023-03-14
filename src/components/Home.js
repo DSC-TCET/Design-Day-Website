@@ -2,6 +2,7 @@ import React from "react";
 import img from "../undraw_experience_design_re_dmqq.svg";
 import { useMediaQuery } from "react-responsive";
 import Timer from "./Timer";
+import "./Home.css";
 
 const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
@@ -19,6 +20,7 @@ const Home = () => {
           >
             design day
           </div>
+
         </div>
         <div
           style={{
@@ -27,6 +29,8 @@ const Home = () => {
           }}
         >
           <img src={img} alt="img" />
+
+          
         </div>
       </div>
       <div className="flex flex-col justify-center items-center m-10">

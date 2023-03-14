@@ -1,3 +1,4 @@
+
 a{
     display: inline-block;
     white-space: nowrap;
@@ -9,6 +10,8 @@ button{
     text-align: center;
     margin-top: -250px;
     margin-left: 220px;
+    margin-top: -270px;
+    margin-left: 
     display: inline-block;
     border-color: white;
     border: border-box;

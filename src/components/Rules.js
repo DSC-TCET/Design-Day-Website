@@ -50,6 +50,7 @@ const Rules = () => {
             event organizers.{" "}
           </li>
         </ul>
+
       </div>
     </section>
   );

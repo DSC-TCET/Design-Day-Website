@@ -1,11 +1,21 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 
 const About = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
+
   return (
-    <section>
+    <section className="my-20">
       <div className="mt-20" id="about">
         <h2 className="m-6 text-5xl text-center">About</h2>
-        <div className="mx-16 mb-10 text-xl tracking-wider">
+        <div
+          className="mb-10 tracking-wider"
+          style={{
+            marginLeft: isMobile ? "2rem" : "4rem",
+            marginRight: isMobile ? "2rem" : "4rem",
+            fontSize: isMobile ? ".90rem" : "1.25rem",
+          }}
+        >
           Design Day is a program organized by Google as part of its Solution
           Challenge initiative. The Solution Challenge is an annual competition
           that encourages students and young professionals to use technology to

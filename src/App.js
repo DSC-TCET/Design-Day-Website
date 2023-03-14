@@ -6,6 +6,7 @@ import About from "./components/About";
 import Venue from "./components/Venue";
 import Home from "./components/Home";
 import Rules from "./components/Rules";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Conduct />
       <Venue />
       <FAQ />
+      <Footer />
     </div>
   );
 }

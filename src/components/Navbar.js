@@ -12,11 +12,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-scroll";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
 import { Fab, Fade, Slide, useScrollTrigger } from "@mui/material";
-import "./Navbar.css";
 
 const drawerWidth = 240;
 
@@ -132,11 +128,20 @@ const Navbar = function DrawerAppBar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item.name} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item.name} />
-            </ListItemButton>
-          </ListItem>
+          <Link
+            to={item.to}
+            smooth={true}
+            duration={300}
+            key={item.name}
+            className="cursor-pointer hover:text-gray-700 transition "
+          >
+            <button
+              key={item.name}
+              className="p-2 block"
+            >
+              <span>{item.name}</span>
+            </button>
+          </Link>
         ))}
       </List>
     </Box>
@@ -162,7 +167,7 @@ const Navbar = function DrawerAppBar(props) {
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
-                sx={{ mr: 2, display: { sm: "none", color: 'white' } }}
+                sx={{ mr: 2, display: { sm: "none", color: "white" } }}
               >
                 <MenuIcon />
               </IconButton>
@@ -174,8 +179,7 @@ const Navbar = function DrawerAppBar(props) {
                   textAlign: "left",
                   fontSize: "1.5rem",
                 }}
-              >
-              </Typography>
+              ></Typography>
               <Box sx={{ display: { xs: "none", sm: "block" } }}>
                 {navItems.map((item) => (
                   <Link
@@ -184,7 +188,7 @@ const Navbar = function DrawerAppBar(props) {
                     key={item.to}
                     duration={300}
                     className="cursor-pointer transition"
-                    style={{color : 'rgba(252, 244, 244, 0.768)'}}
+                    style={{ color: "rgba(252, 244, 244, 0.768)" }}
                   >
                     <button
                       key={item.name}
@@ -193,9 +197,7 @@ const Navbar = function DrawerAppBar(props) {
                       animate={{ translateX: 0, opacity: 1 }}
                       transition={{ duration: 1 }}
                     >
-                      <span className="navItemsAnimation">
-                        {item.name}
-                      </span>
+                      <span className="navItemsAnimation">{item.name}</span>
                     </button>
                   </Link>
                 ))}

@@ -23,7 +23,6 @@ const Rules = () => {
             to their assigned mentor. Any team that exceeds the allotted time
             will be asked to conclude their presentation.
           </li>
-          <br></br>
           <li className="list-disc  p-2">
             Teams are required to demonstrate their prototypes to their assigned
             mentor and answer any questions they may have.{" "}

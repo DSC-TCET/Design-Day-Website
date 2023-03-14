@@ -1,0 +1,34 @@
+import React from "react";
+import '../App.css'
+import Timer from "./Timer";
+
+const Conduct = () => {
+  return (
+    <section id='conduct' className="my-20">
+      <div>
+        <h2 className="m-6 text-5xl ">Code of Conduct</h2>
+<<<<<<< HEAD
+        <div className="mx-16 m-10 text-xl tracking-wider">
+  All participants must respect their assigned mentor, event organizers, and other teams at all times.<br></br><br></br>
+
+Any form of discriminatory or inappropriate behavior will not be tolerated.<br></br><br></br>
+
+Participants must maintain a professional attitude throughout the event.<br></br><br></br>
+
+Participants must maintain a clean and safe workspace.<br></br><br></br>
+
+Any damage caused to the venue or equipment will be the responsibility of the team or individual responsible.<br></br><br></br>
+
+Participants are required to follow all local and national laws and regulations.<br></br><br></br>
+
+Any violation of the rules or code of conduct may result in disqualification or other consequences, as determined by the event organizers. </div>
+=======
+        <Timer />
+        <div className="mx-16 m-10 text-xl tracking-wider">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+>>>>>>> eaf3c8f5d9b09b422006dc0171c6a024dab270ef
+      </div>
+    </section>
+  );
+};
+
+export default Conduct;

@@ -12,9 +12,7 @@ export default function SimpleAccordion() {
   return (
     <section className="my-20">
       <div id="faq">
-        <h2
-          className="m-6 text-5xl"
-        >
+        <h2 className="m-6" style={{ fontSize: isMobile ? "2rem" : "4rem" }}>
           FAQ
         </h2>
         <Accordion

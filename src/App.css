@@ -16,11 +16,37 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #1b1e29;
-  color: rgba(252, 244, 244, 0.768);
+  font-family: "Poppins", sans-serif;
+  background-color: #1b1e29 !important;
+  color: rgba(252, 244, 244, 0.768) !important;
 }
 
 main {
   margin-top: 80px;
+}
+
+.navItemsAnimation {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 5px;
+}
+
+.navItemsAnimation:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.navItemsAnimation:hover {
+  color: black;
+}
+
+.navItemsAnimation:hover:after {
+  width: 100%;
 }

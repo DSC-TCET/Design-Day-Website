@@ -9,7 +9,6 @@ export default function SimpleAccordion() {
   return (
     <section className="my-20">
       <div id="faq">
-<<<<<<< HEAD
         <h2 className="m-6 text-5xl ">FAQ</h2>
       <Accordion className='m-10'>
         <AccordionSummary
@@ -116,7 +115,6 @@ export default function SimpleAccordion() {
       </Accordion>
 
     </div>
-=======
         <h2 className="m-6 text-5xl">FAQ</h2>
         <Accordion className="m-10 drop-shadow-xl ">
           <AccordionSummary
@@ -173,7 +171,6 @@ export default function SimpleAccordion() {
           </AccordionDetails>
         </Accordion>
       </div>
->>>>>>> eaf3c8f5d9b09b422006dc0171c6a024dab270ef
     </section>
   );
 }

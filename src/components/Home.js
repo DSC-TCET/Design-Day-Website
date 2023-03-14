@@ -29,11 +29,14 @@ const Home = () => {
           <img src={img} alt="img" />
         </div>
       </div>
-      <div class="sub">
-        <a href="https://google.com">
-          <button class="reg">Register</button>
-          <Timer />
-        </a>
+      <div className="flex flex-col justify-center items-center m-10">
+        <button
+          style={{ fontFamily: "Raleway, sans-serif" }}
+          className="w-fit m-10 bg-[#647ECB] hover:dropShadow-3xl hover:bg-[#D01498] text-white text-base hover:shadow-lg hover:drop-shadow-[0_8px_15px_#D01498] ease-in-out duration-500 font-bold py-2 px-4 rounded"
+        >
+          Register
+        </button>
+        <Timer />
       </div>
     </section>
   );

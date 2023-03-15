@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const deadline = "16 march 2023 15:00:00";
+const deadline = "17 march 2023 18:00:00";
 
 const App = ({ setWhitelistStarted }) => {
   const [remaining, setRemaining] = useState(getTimeRemaining(deadline));

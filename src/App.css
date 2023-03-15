@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1b1e29 !important;
+  color: rgba(252, 244, 244, 0.768) !important;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.navItemsAnimation {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 5px;
+}
+
+.navItemsAnimation:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(252, 244, 244, 0.768);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.navItemsAnimation:hover {
+  color: white;
+}
+
+.navItemsAnimation:hover:after {
+  width: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+.footer {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  padding: 70px 0;
+}
+
+.footer-col {
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a.facebook:hover {
+  color: #2762f8;
+}
+
+.footer-col .social-links a.github:hover {
+  color: rgb(159, 11, 154);
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+#number {
+  border-radius: 0.25rem;
+  color: #a39efc;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  width: 50px;
+}
+
+.main-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#tag {
+  font-size: 1rem;
+  margin-top: -18px;
+  margin-right: -14px;
+  font-weight: 600;
+  color: #B1CDEC;
+}
+.bg-glass {
+  background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}

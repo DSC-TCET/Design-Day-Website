@@ -18,34 +18,19 @@ const About = () => {
             About
           </h2>
           <div className=' tracking-wider'>
-            <p className='text-lg text-justify'>
-              Design Day is a program organized by Google as part of its
-              Solution Challenge initiative. The Solution Challenge is an annual
-              competition that encourages students and young professionals to
-              use technology to solve real-world problems. The competition is
-              open to individuals and teams of up to four members, and
-              participants are required to submit a solution that addresses one
-              of Google's designated global problems. Design Day is a one-day
-              event that takes place as part of the Solution Challenge. During
-              the event, participants are invited to collaborate with each other
-              and with Google mentors to develop their proposed solutions. The
-              event provides an opportunity for participants to refine their
-              ideas, receive feedback from experts, and learn more about
-              Google's technologies and design principles. Design Day typically
-              involves a series of workshops and activities focused on design
-              thinking and problem-solving. Participants have the opportunity to
-              work with Google's Design Sprint methodology, which involves a
-              five-day process for solving complex problems and creating new
-              products or services. At the end of Design Day, participants
-              present their solutions to a panel of judges, who evaluate the
-              proposals based on criteria such as innovation, impact, and
-              feasibility. The winning teams receive prizes and may also have
-              the opportunity to work with Google to further develop and
-              implement their solutions. Overall, Design Day is a valuable
-              opportunity for young professionals to gain experience in design
-              thinking and problem-solving, collaborate with others, and work on
-              solutions to real-world problems.
-            </p>
+                 <p className='text-lg text-justify'>
+  🎉 Design Day is an exciting program organized by Google as part of its Solution Challenge initiative! 🚀<br/><br/>
+
+  The Solution Challenge is an annual competition that encourages students and young professionals to use technology to solve real-world problems. Participants can work alone or in teams of up to four members, and are required to submit a solution that addresses one of Google's designated global problems.<br/><br/>
+
+  👥 Design Day is a one-day event that brings participants together to collaborate with each other and with Google mentors to develop their proposed solutions. It's an opportunity for participants to refine their ideas, receive feedback from experts, and learn more about Google's technologies and design principles.<br/><br/>
+
+  💡 The event typically involves a series of workshops and activities focused on design thinking and problem-solving. Participants have the opportunity to work with Google's Design Sprint methodology, which involves a five-day process for solving complex problems and creating new products or services.<br/><br/>
+
+  🏆 At the end of Design Day, participants present their solutions to a panel of judges/mentors, who evaluate the proposals based on criteria such as innovation, impact, and feasibility. Winning teams receive prizes and may also have the opportunity to work with Google to further develop and implement their solutions.<br/><br/>
+
+</p>
+
           </div>
         </div>
       </div>

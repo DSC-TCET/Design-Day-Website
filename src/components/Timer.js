@@ -36,7 +36,9 @@ const App = ({ setWhitelistStarted }) => {
 
   return (
 
+
     <div className='main-container flex md:gap-24 sm:gap-16 gap-14'>
+
 
       <div>
         <div id='number'>{remaining.days}</div>

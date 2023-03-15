@@ -7,35 +7,33 @@ const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
 
   return (
-    <section id="home" className="mt-16">
-      <div style={{ display: isMobile ? "grid" : "flex" }}>
-        <div style={{ width: isMobile ? "100%" : "50%" }}>
+    <section id='home' className='mt-16'>
+      <div className='flex max-w-5xl mx-auto justify-between pt-16'>
+        <div>
           <div
-            className="ml-10 flex justify-center items-center h-full capitalize"
+            className='flex flex-col basis-2/5 justify-center items-center h-full capitalize gap-7'
             style={{
               fontSize: isMobile ? "2rem" : "4rem",
               marginTop: isMobile ? "2rem" : null,
             }}
           >
-            design day
+            <h1 style={{ color: "#6C63FF" }} className='font-semibold '>
+              design day
+            </h1>
+            <p className='text-2xl'>By GDSC-TCET</p>
+            <button
+              style={{ fontFamily: "Raleway, sans-serif" }}
+              className='mt-4 w-44 bg-[#647ECB] hover:bg-[#D01498] text-white text-lg hover:shadow-lg hover:drop-shadow-[0_2px_4px_#D01498] ease-in-out duration-500 font-bold py-2 px-4 rounded'
+            >
+              Register
+            </button>
           </div>
         </div>
-        <div
-          style={{
-            width: isMobile ? "100%" : "50%",
-            margin: isMobile ? "5rem 2rem 0 .5rem" : null,
-          }}
-        >
-          <img src={img} alt="img" />
+        <div className='basis-3/5'>
+          <img src={img} alt='img' className='object-cover w-full h-full' />
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center m-10">
-        <button
-          style={{ fontFamily: "Raleway, sans-serif" }}
-          className="w-fit m-10 bg-[#647ECB] hover:dropShadow-3xl hover:bg-[#D01498] text-white text-base hover:shadow-lg hover:drop-shadow-[0_8px_15px_#D01498] ease-in-out duration-500 font-bold py-2 px-4 rounded"
-        >
-          Register
-        </button>
+      <div className='flex flex-col justify-center items-center mt-14'>
         <Timer />
       </div>
     </section>

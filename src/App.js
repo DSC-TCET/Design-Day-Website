@@ -13,12 +13,14 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <About />
-      <Rules />
-      <Conduct />
-      <Venue />
-      <FAQ />
-      <Footer />
+      <div className='max-w-6xl mx-auto'>
+        <About />
+        <Rules />
+        <Conduct />
+        <Venue />
+        <FAQ />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -118,3 +118,34 @@ main {
     width: 100%;
   }
 }
+
+#number {
+  border-radius: 0.25rem;
+  color: #a39efc;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  width: 50px;
+}
+
+.main-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#tag {
+  font-size: 1rem;
+  margin-top: -18px;
+  margin-right: -14px;
+  font-weight: 600;
+  color: #B1CDEC;
+}
+.bg-glass {
+  background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}

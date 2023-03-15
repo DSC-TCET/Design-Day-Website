@@ -14,10 +14,10 @@ export default function SimpleAccordion() {
       <div id='faq' className='pt-5'>
         <div
           style={{ backgroundColor: "rgba(177, 205, 236, 0.1)" }}
-          className='p-9 rounded-xl'
+          className='lg:p-9 p-6 rounded-xl'
         >
           <h2
-            className='text-6xl mb-6 font-semibold'
+            className='md:text-6xl text-4xl mb-6 font-semibold'
             style={{ color: "rgba(255,255,255,0.85)" }}
           >
             FAQ
@@ -25,7 +25,8 @@ export default function SimpleAccordion() {
           <Accordion
             className='my-10 drop-shadow-xl '
             style={{
-              margin: isMobile ? "2rem" : null,
+              margin: isMobile ? "0.2rem" : null,
+              marginBottom: isMobile ? "1.4rem" : null,
             }}
           >
             <AccordionSummary
@@ -61,7 +62,8 @@ export default function SimpleAccordion() {
           <Accordion
             className='my-10 drop-shadow-xl '
             style={{
-              margin: isMobile ? "2rem" : null,
+              margin: isMobile ? "0.2rem" : null,
+              marginBottom: isMobile ? "1.4rem" : null,
             }}
           >
             <AccordionSummary
@@ -98,7 +100,8 @@ export default function SimpleAccordion() {
           <Accordion
             className='my-10 drop-shadow-xl '
             style={{
-              margin: isMobile ? "2rem" : null,
+              margin: isMobile ? "0.2rem" : null,
+              marginBottom: isMobile ? "1.4rem" : null,
             }}
           >
             <AccordionSummary
@@ -134,7 +137,8 @@ export default function SimpleAccordion() {
           <Accordion
             className='my-10 drop-shadow-xl '
             style={{
-              margin: isMobile ? "2rem" : null,
+              margin: isMobile ? "0.2rem" : null,
+              marginBottom: isMobile ? "1.4rem" : null,
             }}
           >
             <AccordionSummary
@@ -171,7 +175,8 @@ export default function SimpleAccordion() {
           <Accordion
             className='my-10 drop-shadow-xl '
             style={{
-              margin: isMobile ? "2rem" : null,
+              margin: isMobile ? "0.2rem" : null,
+              marginBottom: isMobile ? "1.4rem" : null,
             }}
           >
             <AccordionSummary
@@ -208,7 +213,8 @@ export default function SimpleAccordion() {
           <Accordion
             className='my-10 drop-shadow-xl '
             style={{
-              margin: isMobile ? "2rem" : null,
+              margin: isMobile ? "0.2rem" : null,
+              marginBottom: isMobile ? "1.4rem" : null,
             }}
           >
             <AccordionSummary
@@ -244,7 +250,8 @@ export default function SimpleAccordion() {
           <Accordion
             className='my-10 drop-shadow-xl '
             style={{
-              margin: isMobile ? "2rem" : null,
+              margin: isMobile ? "0.2rem" : null,
+              marginBottom: isMobile ? "1.4rem" : null,
             }}
           >
             <AccordionSummary

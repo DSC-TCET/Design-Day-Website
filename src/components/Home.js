@@ -21,12 +21,14 @@ const Home = () => {
               design day
             </h1>
             <p className='text-2xl'>By GDSC-TCET</p>
-            <button
-              style={{ fontFamily: "Raleway, sans-serif" }}
-              className='mt-4 w-44 bg-[#647ECB] hover:bg-[#D01498] text-white text-lg hover:shadow-lg hover:drop-shadow-[0_2px_4px_#D01498] ease-in-out duration-500 font-bold py-2 px-4 rounded'
-            >
-              Register
-            </button>
+<a href="https://forms.gle/dbhn7pip9Kv6Ptvr9" target="_blank" rel="noopener noreferrer">
+  <button
+    style={{ fontFamily: "Raleway, sans-serif" }}
+    className='mt-4 w-44 bg-[#647ECB] hover:bg-[#D01498] text-white text-lg hover:shadow-lg hover:drop-shadow-[0_2px_4px_#D01498] ease-in-out duration-500 font-bold py-2 px-4 rounded'>
+          Register
+       </button>
+</a>
+
           </div>
         </div>
         <div className='basis-3/5'>

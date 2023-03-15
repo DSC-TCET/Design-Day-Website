@@ -35,7 +35,7 @@ const App = ({ setWhitelistStarted }) => {
   }, 1000);
 
   return (
-    <div className='main-container flex gap-24'>
+    <div className='main-container flex md:gap-24 sm:gap-16 gap-14'>
       <div>
         <div id='number'>{remaining.days}</div>
         <div id='tag' style={{ color: "#B1CDEC" }}>

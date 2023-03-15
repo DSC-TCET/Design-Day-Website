@@ -10,14 +10,17 @@ const Conduct = () => {
       <div>
         <div
           style={{ backgroundColor: "rgba(177, 205, 236, 0.1)" }}
+
           className='lg:p-9 p-6 rounded-xl'
         >
           <h2
             className='md:text-6xl text-4xl mb-6 font-semibold'
+
             style={{ color: "rgba(255,255,255,0.85)" }}
           >
             Code of conduct
           </h2>
+
           <ul className='tracking-wider md:text-lg text-base text-justify'>
             <li className='list-disc p-2'>
               All participants must respect their assigned mentor, event

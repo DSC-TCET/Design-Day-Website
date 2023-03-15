@@ -7,6 +7,7 @@ const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
 
   return (
+
     <section id='home' className='mt-16 px-4'>
       <div className='flex flex-col lg:flex-row md:gap-8 gap-14 max-w-5xl mx-auto justify-between pt-16'>
         <div>
@@ -15,11 +16,13 @@ const Home = () => {
             style={{
               fontSize: isMobile ? "2.5rem" : "4rem",
               marginTop: isMobile ? "1rem" : null,
+
             }}
           >
             <h1 style={{ color: "#6C63FF" }} className='font-semibold '>
               design day
             </h1>
+
             <p className='md:text-2xl text-lg'>By GDSC-TCET</p>
             <a
               href='https://forms.gle/dbhn7pip9Kv6Ptvr9'
@@ -37,6 +40,7 @@ const Home = () => {
           </div>
         </div>
         <div className='basis-3/5 px-0 sm:px-10'>
+
           <img src={img} alt='img' className='object-cover w-full h-full' />
         </div>
       </div>

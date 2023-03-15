@@ -9,15 +9,19 @@ const About = () => {
       <div className='pt-5' id='about'>
         <div
           style={{ backgroundColor: "rgba(177, 205, 236, 0.1)" }}
+
           className='lg:p-9 p-6 rounded-xl'
         >
           <h2
             className='md:text-6xl text-4xl mb-6 font-semibold'
+
             style={{ color: "rgba(255,255,255,0.85)" }}
           >
             About
           </h2>
           <div className=' tracking-wider'>
+
+
             <p className='md:text-lg text-base text-justify'>
               🎉 Design Day is an exciting program organized by Google as part
               of its Solution Challenge initiative! 🚀
@@ -52,6 +56,7 @@ const About = () => {
               <br />
               <br />
             </p>
+
           </div>
         </div>
       </div>

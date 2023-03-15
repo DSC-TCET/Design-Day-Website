@@ -9,15 +9,19 @@ const Rules = () => {
       <div className='pt-5' id='rules'>
         <div
           style={{ backgroundColor: "rgba(177, 205, 236, 0.1)" }}
+
           className='lg:p-9 p-6 rounded-xl'
         >
           <h2
             className='md:text-6xl text-4xl mb-6 font-semibold'
+
             style={{ color: "rgba(255,255,255,0.85)" }}
           >
             Rules
           </h2>
+
           <ul className='tracking-wider md:text-lg text-base text-justify'>
+
             <li className='list-disc p-2'>
               Each team will be given a designated time to present their
               prototype to their assigned mentor. Any team that exceeds the
@@ -58,4 +62,6 @@ const Rules = () => {
   );
 };
 
+
 export default Rules;
+

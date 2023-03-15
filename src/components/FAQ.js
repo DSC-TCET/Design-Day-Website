@@ -15,10 +15,12 @@ export default function SimpleAccordion() {
         <div
           style={{ backgroundColor: "rgba(177, 205, 236, 0.1)" }}
 
+
           className='lg:p-9 p-6 rounded-xl'
         >
           <h2
             className='md:text-6xl text-4xl mb-6 font-semibold'
+
 
             style={{ color: "rgba(255,255,255,0.85)" }}
           >
@@ -28,8 +30,10 @@ export default function SimpleAccordion() {
             className='my-10 drop-shadow-xl '
             style={{
 
+
               margin: isMobile ? "0.2rem" : null,
               marginBottom: isMobile ? "1.4rem" : null,
+
 
             }}
           >
@@ -67,8 +71,10 @@ export default function SimpleAccordion() {
             className='my-10 drop-shadow-xl '
             style={{
 
+
               margin: isMobile ? "0.2rem" : null,
               marginBottom: isMobile ? "1.4rem" : null,
+
 
             }}
           >
@@ -107,8 +113,10 @@ export default function SimpleAccordion() {
             className='my-10 drop-shadow-xl '
             style={{
 
+
               margin: isMobile ? "0.2rem" : null,
               marginBottom: isMobile ? "1.4rem" : null,
+
 
             }}
           >
@@ -146,8 +154,10 @@ export default function SimpleAccordion() {
             className='my-10 drop-shadow-xl '
             style={{
 
+
               margin: isMobile ? "0.2rem" : null,
               marginBottom: isMobile ? "1.4rem" : null,
+
 
             }}
           >
@@ -186,8 +196,10 @@ export default function SimpleAccordion() {
             className='my-10 drop-shadow-xl '
             style={{
 
+
               margin: isMobile ? "0.2rem" : null,
               marginBottom: isMobile ? "1.4rem" : null,
+
 
             }}
           >
@@ -226,8 +238,10 @@ export default function SimpleAccordion() {
             className='my-10 drop-shadow-xl '
             style={{
 
+
               margin: isMobile ? "0.2rem" : null,
               marginBottom: isMobile ? "1.4rem" : null,
+
 
             }}
           >
@@ -267,6 +281,7 @@ export default function SimpleAccordion() {
 
               margin: isMobile ? "0.2rem" : null,
               marginBottom: isMobile ? "1.4rem" : null,
+
 
             }}
           >
